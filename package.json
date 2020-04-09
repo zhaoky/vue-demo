@@ -1,0 +1,36 @@
+{
+  "name": "vue-demo",
+  "version": "1.0.0",
+  "description": "本 demo 服务于：《 Vue2.x（含组件）主流程源码分析笔记》系列文章",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "debug": "node --inspect-brk=5858 ./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaoky/vue-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaoky/vue-demo/issues"
+  },
+  "homepage": "https://github.com/zhaoky/vue-demo#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^4.0.4",
+    "vue-loader": "^15.9.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}

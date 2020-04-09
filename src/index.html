@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>纯浏览器渲染</title>
+    <style>
+      #main {
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <Bpp></Bpp>
+      <div v-on:click="plus">info.name:{{info.name}}，计算属性:{{compute}}</div>
+      <App name="one" v-bind:num="info.age"></App>
+      <div v-on:click="hide">====点击让第二个App组件卸载====</div>
+      <App name="two" v-if="isShow"></App>
+    </div>
+  </body>
+</html>
